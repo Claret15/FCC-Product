@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("carbon.jpg");
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: black;
+  z-index: 10;
+}
+
+#details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#company {
+  color: red;
+  font-family: 'Faster One', cursive;
+  font-size: 2.5em;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}
+
+/* ********* CSS for nav section ********* */
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20px;
+}
+
+nav li {
+  font-size: 1em;
+  list-style-type: none;
+  padding: 0 20px;
+  text-align: center;
+  color: #FF00FF;
+}
+
+li a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+li a:visited {
+  color: #FFFFFF;
+}
+
+li a:hover {
+  color: red;
+}
+
+/* ********* CSS for main section ********* */
+
+#intro {
+  padding-top: 75px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #0247FE;
+  margin: 0 20px;
+}
+
+#email {
+  max-width: 300px;
+  min-width: 275px;
+  height: 25px;
+  font-size: 1em;
+  display: block;
+  margin-top: 20px;
+  padding-left: 5px;
+  color: red;
+}
+
+#submit {
+  background-color: yellow;
+  padding: 10px 5px;
+  font-size: 0.75em;
+  font-weight: bold;
+  border: 0;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#features {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fa-icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15vw;
+  color: #FF6037;
+}
+
+h2 {
+  color: #0247FE;
+  font-weight: 700;
+}
+
+.features-info {
+  color: #DBE5FF;
+  width: 50vw;
+  /* Auto-scales based on size of viewport */
+  margin: 20px 0;
+}
+
+#how_it_works {
+  margin: auto;
+  padding: 50px 0;
+  max-width: 600px;
+  min-width: 200px;
+}
+
+.iframe-container {
+  margin: auto;
+  padding-top: 56.25%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.iframe-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid black;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em 1em;
+}
+
+.product-title {
+  text-align: center;
+  background-color: #50BFE6;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.product-cost,
+.product-list {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.product-list li {
+  list-style-type: none;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+}
+
+.btn {
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  margin: 10px 0;
+  font-size: 0.75em;
+  border-style: none;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 20px;
+  color: orange;
+}
+
+footer ul,
+footer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer li {
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* ********* MEDIA QUERIES ********* */
+
+@media only screen and (max-width: 900px) {
+  #header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul {
+    padding-right: 0;
+  }
+  #intro {
+    padding-top: 95px;
+  }
+  .features-info {
+    width: 70vw;
+    /* Auto-scales based on size of viewport */
+  }
+  .card {
+    margin: 2em 2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #header {
+    position: relative;
+  }
+  nav ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  nav li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    padding: 5px;
+    font-size: 1em;
+  }
+  #intro {
+    padding-top: 50px;
+  }
+  .features-info {
+    width: 100%;
+    margin: 20px 30px;
+  }
+  .fa-icon {
+    display: none;
+  }
+  #how_it_works {
+    padding: 30px 0;
+  }
+  #pricing {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card {
+    margin: 1em 0;
+  }
+  footer li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer ul,
+  footer span {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  nav ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  .features-info {
+    margin: 20px 20px;
+  }
+}
